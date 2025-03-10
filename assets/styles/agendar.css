@@ -1,0 +1,148 @@
+
+body {
+    background-image: url(Background.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 120vh;
+    height: 40vh;
+    max-width: 150vh;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 2000vh;
+}
+
+.form-container {
+    margin-top: 3%;
+    color: blue;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 45%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+.form-container input {
+    width: 46vh;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 45vh;
+    height: 10vh;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn input {
+    width: 50%;
+    padding: 10px;
+    background-image: linear-gradient(#3383c1, #256a8a);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn input:hover {
+    background: linear-gradient(135deg, #5a98ce, #8d3ea8);
+}
+
+.icon-top {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icon-top img {
+    margin-top: 80px;
+    width: 100px;
+    height: auto;
+}
+
+.icon-right {
+    margin-top: 80px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.icon-right img {
+    width: 200px;
+    height: auto;
+}
+
+select {
+    width: 48vh;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
